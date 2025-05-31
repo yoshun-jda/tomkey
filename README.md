@@ -1,18 +1,16 @@
-    &i2c0 {
-      status = "okay";
-      oled: ssd1306@3c {
-        compatible = "solomon,ssd1306fb";
-        reg = <0x3c>;
-        width = <128>;
-        height = <64>;
-        segment-offset = <0>;
-        page-offset = <0>;
-        display-offset = <0>;
-        multiplex-ratio = <63>;
-        segment-remap;
-        com-scan-direction = "com-increment";
-        com-pin-config = "disable";
-        display-on;
-        label = "DISPLAY";
-      };
-    };
+description
+- このキーボードは無線分割式19mmトラックボール内蔵のキーボードになります。
+
+スペック
+- ファームウェア
+  - ZMKを使用しています
+  - ZMKStudioに対応しております
+- ハードウェア
+  - choc v1/v2、lofree系列のスイッチが使用可能
+  - 左手側がmaster,右手側がslaveになります
+  - 左手側にOLED内蔵
+  - トラックボールはケースごとマグネットで張り付いているので、脱着可能です
+  - バッテリー対応
+    - 横25mm,縦35mm,厚さ5mm以内のものを使用してください
+    - 250mAhで大体1週間は持ちます
+    - リチウムイオンバッテリーは十分注意して取り扱ってください(https://www.baj.or.jp/battery/safety/safety16.html)

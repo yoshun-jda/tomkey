@@ -36,9 +36,9 @@
 
         ARROW {
             bindings = <
-&kp GRAVE  &kp LC(LS(TAB))         &kp LG(RIGHT)   &kp NUMBER_9     &kp NUMBER_0                           &dummy1  &kp RC(LEFT_ARROW)  &kp UP_ARROW      &kp RC(RIGHT_ARROW)  &kp LG(P)
-&kp TAB    &kp LA(LG(LEFT_ARROW))  &kp LG(LEFT)    &kp LG(LA(RIGHT_ARROW))  &kp LEFT_BRACKET   &trans      &trans  &dummy3  &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &kp LG(K)
-&kp LCMD   &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &kp RIGHT_BRACKET  &trans      &trans  &dummy2  &trans              &kp LC(UP_ARROW)  &trans               &kp LG(L)
+&kp GRAVE  &kp LC(LS(TAB))         &kp LG(RIGHT)   &kp NUMBER_9     &kp NUMBER_0                                   &trans  &kp RC(LEFT_ARROW)  &kp UP_ARROW      &kp RC(RIGHT_ARROW)  &kp LG(P)
+&kp TAB    &kp LA(LG(LEFT_ARROW))  &kp LG(LEFT)    &kp LG(LA(RIGHT_ARROW))  &kp LEFT_BRACKET   &trans      &trans  &trans  &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &kp LG(K)
+&kp LCMD   &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &kp RIGHT_BRACKET  &trans      &trans  &trans  &trans              &kp LC(UP_ARROW)  &trans               &kp LG(L)
 &trans     &trans                  &kp LEFT_SHIFT  &trans                   &trans             &trans      &trans  &trans                                                              &trans
             >;
         };
@@ -64,8 +64,8 @@
         layer_6 {
             bindings = <
 &kp LG(Q)      &kp LC(W)  &trans     &trans     &trans                      &bt BT_PRV     &bt BT_NXT       &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&kp LG(LS(Z))  &trans     &kp LC(C)  &trans     &trans  &trans      &trans  &tmux_y_split  &tmux_move_pain  &trans        &trans        &trans
-&kp LG(Z)      &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans  &trans      &trans  &tmux_x_split  &trans           &trans        &trans        &trans
+&kp LG(LS(Z))  &trans     &kp LC(C)  &trans     &trans  &trans      &trans  &trans         &trans           &trans        &trans        &trans
+&kp LG(Z)      &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans  &trans      &trans  &trans         &trans           &trans        &trans        &trans
 &trans         &trans     &trans     &trans     &trans  &trans      &trans  &trans                                                      &trans
             >;
         };
