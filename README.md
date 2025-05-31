@@ -1,5 +1,7 @@
 description
 - このキーボードは無線分割式19mmトラックボール内蔵のキーボードになります。
+![tomkey keyboard](img/tomkeyimg.png){width=300px}
+
 
 スペック
 - ファームウェア
