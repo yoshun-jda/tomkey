@@ -1,7 +1,6 @@
 description
 - このキーボードは無線分割式19mmトラックボール内蔵のキーボードになります。
-![tomkey keyboard](img/tomkeyimg.png){width=300px}
-
+![tomkey keyboard](img/tomkeyimg.png)
 
 スペック
 - ファームウェア
@@ -14,5 +13,6 @@ description
   - トラックボールはケースごとマグネットで張り付いているので、脱着可能です
   - バッテリー対応
     - 横25mm,縦35mm,厚さ5mm以内のものを使用してください
+    - 製作者こちらを使用しています(https://amzn.asia/d/fJpzXZ6)
     - 250mAhで大体1週間は持ちます
     - リチウムイオンバッテリーは十分注意して取り扱ってください(https://www.baj.or.jp/battery/safety/safety16.html)
