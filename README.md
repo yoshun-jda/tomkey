@@ -1,8 +1,9 @@
 ## description
-
 - このキーボードは無線分割式 40% 19mm トラックボール内蔵のキーボードになります。
   ![tomkey keyboard](img/tomkeyimg.png)
 
+## ビルドガイド
+- https://github.com/pukuhei/tomkey/blob/main/build_guide/build_guide.md
 ## スペック
 
 - ファームウェア
