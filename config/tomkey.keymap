@@ -10,11 +10,15 @@
         kana {
             bindings = <&kp LANGUAGE_1>;
             key-positions = <18 19>;
+            timeout-ms = <150>;
+            layers = <0>;
         };
 
         eisuu {
             bindings = <&kp LANGUAGE_2>;
             key-positions = <12 13>;
+            slow-release;
+            timeout-ms = <150>;
         };
     };
 
