@@ -8,12 +8,12 @@
         compatible = "zmk,combos";
 
         kana {
-            bindings = <&kp LANGUAGE_2>;
+            bindings = <&kp LANGUAGE_1>;
             key-positions = <18 19>;
         };
 
         eisuu {
-            bindings = <&kp LANGUAGE_1>;
+            bindings = <&kp LANGUAGE_2>;
             key-positions = <12 13>;
         };
     };
@@ -25,7 +25,7 @@
             bindings = <&none>, <&none>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <240>;
         };
     };
 
@@ -37,7 +37,7 @@
 &mt Q TAB         &kp Y        &kp U           &kp COMMA       &kp MINUS                                             &kp P            &kp D            &kp H            &kp W        &kp F
 &mt LEFT_SHIFT A  &mt LCTRL I  &mt LEFT_GUI E  &mt LEFT_ALT O  &kp PERIOD   &kp LS(LG(APOS))      &kp EQUAL          &kp K            &mt RIGHT_ALT T  &mt RIGHT_GUI N  &mt RCTRL S  &mt RIGHT_SHIFT R
 &kp Z             &kp X        &kp C           &kp V           &kp SLASH    &kp COLON             &kp DOUBLE_QUOTES  &kp G            &kp M            &kp L            &lt 2 B      &kp J
-&kp QUESTION      &to 6        &lt 2 TAB       &lt 4 SPACE     &lt 3 ENTER  &trans                &lt 5 ENTER        &lt 3 BACKSPACE                                                 &kp SINGLE_QUOTE
+&kp QUESTION      &to 6        &lt 2 TAB       &lt 2 TAB       &lt 4 SPACE  &lt 3 ENTER           &lt 5 ENTER        &lt 1 BACKSPACE                                                 &kp SINGLE_QUOTE
             >;
         };
 
