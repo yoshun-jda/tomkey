@@ -44,7 +44,7 @@
 &mt Q TAB         &kp Y        &kp U           &kp COMMA       &kp MINUS                                             &kp P            &kp D            &kp H            &kp W        &kp F
 &mt LEFT_SHIFT A  &mt LCTRL I  &mt LEFT_GUI E  &mt LEFT_ALT O  &kp PERIOD   &kp LS(LG(APOS))      &kp EQUAL          &kp K            &mt RIGHT_ALT T  &mt RIGHT_GUI N  &mt RCTRL S  &mt RIGHT_SHIFT R
 &kp Z             &kp X        &kp C           &kp V           &kp SLASH    &kp COLON             &kp DOUBLE_QUOTES  &kp G            &kp M            &kp L            &lt 2 B      &kp J
-&kp QUESTION      &to 6        &lt 2 TAB       &lt 2 TAB       &lt 4 SPACE  &lt 3 ENTER           &lt 5 ENTER        &lt 1 BACKSPACE                                                 &kp SINGLE_QUOTE
+&kp LANGUAGE_2    &to 6        &lt 2 TAB       &lt 2 TAB       &lt 4 SPACE  &lt 3 ENTER           &lt 5 ENTER        &lt 1 BACKSPACE                                                 &kp LANGUAGE_1
             >;
         };
 
