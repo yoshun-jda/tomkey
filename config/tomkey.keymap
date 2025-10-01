@@ -19,6 +19,7 @@
             key-positions = <12 13>;
             slow-release;
             timeout-ms = <150>;
+            layers = <0>;
         };
     };
 
