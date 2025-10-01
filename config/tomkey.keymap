@@ -4,6 +4,20 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        kana {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <18 19>;
+        };
+
+        eisuu {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <12 13>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
