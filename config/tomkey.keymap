@@ -55,9 +55,9 @@
 
         MOUSE {
             bindings = <
-&trans     &trans        &trans            &trans          &trans                               &trans         &trans    &trans    &trans  &trans
-&trans     &trans        &trans            &trans          &trans     &trans         &trans     &trans         &trans    &trans    &trans  &trans
-&trans     &trans        &trans            &trans          &trans     &trans         &trans     &trans         &mkp MB1  &mkp MB2  &trans  &trans
+&trans     &trans        &trans            &trans          &trans                               &trans         &trans  &trans    &trans    &trans
+&trans     &trans        &trans            &trans          &trans     &trans         &trans     &trans         &trans  &mkp MB1  &mkp MB2  &trans
+&trans     &trans        &trans            &trans          &trans     &trans         &trans     &trans         &trans  &trans    &trans    &trans
 &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &kp SPACE  &kp ENTER      &kp ENTER  &kp BACKSPACE                              &trans
             >;
         };
